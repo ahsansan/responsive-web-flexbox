@@ -209,10 +209,12 @@ section .left .box-card table th {
 	font-size: 19px;
 	background-color: #038400;
 	color: #fff;
+	padding: 5px;
 }
 
 section .left .box-card table td {
 	font-size: 15px;
+	padding: 5px;
 }
 
 section .right {
@@ -231,6 +233,7 @@ section .right .skill {
 }
 
 section .right .skill img {
+	margin-top: 15px;
 	width: 56px;
 	height: auto;
 }
