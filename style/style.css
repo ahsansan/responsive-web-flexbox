@@ -189,9 +189,11 @@ section {
 	justify-content: center;
 	align-items: center;
 	margin-top: 25px;
+	align-content: stretch;
 }
 
 section .left {
+	display: flex;
 	flex: 35%;
 	justify-content: center;
 	padding: 20px;
@@ -218,13 +220,15 @@ section .left .box-card table td {
 }
 
 section .right {
+	display: flex;
 	flex: 65%;
 	justify-self: center;
 	padding: 20px;
+	align-content: space-around;
 }
 
 section .right p {
-	color: #888;
+	color: #696868;
 }
 
 section .right .skill {
